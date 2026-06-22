@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALAH SMART SCHOOL | Official Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@300;400;700&display=swap');
+        body { background: #000; color: #fff; font-family: 'Outfit', sans-serif; overflow-x: hidden; }
+        .kids-title { font-family: 'Fredoka One', cursive; background: linear-gradient(to right, #22d3ee, #4ade80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-ui { background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .portrait { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 4px solid #22d3ee; box-shadow: 0 0 15px #22d3ee; }
+        .icon-breathe { animation: breathe 2s infinite ease-in-out; }
+        @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+        .bright-video { filter: brightness(1.6) saturate(1.2) contrast(1.1); }
+        
+        .my-logo-circle {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop class="fixed top-0 left-0 w-full h-full object-cover -z-10 bright-video">
+        <source src="https://videotourl.com/videos/1782138912728-2025a3c1-c724-42c9-bba0-b14eae403503.mp4" type="video/mp4">
+    </video>
+
+    <div class="fixed right-6 bottom-10 z-[999] flex flex-col gap-4">
+        <a href="tel:+919973647484" class="p-4 bg-blue-600 rounded-full icon-breathe shadow-xl"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://wa.me/919973647484" class="p-4 bg-green-500 rounded-full icon-breathe shadow-xl"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#admissions" class="p-4 bg-yellow-500 rounded-full icon-breathe shadow-xl"><i class="fa-solid fa-file-pen"></i></a>
+    </div>
+
+    <nav class="fixed w-full z-[1000] glass-ui p-4 flex justify-between items-center px-6 border-b border-white/10">
+        <h1 class="kids-title text-xl font-bold">FALAH SMART</h1>
+        <div class="hidden md:flex space-x-6 font-bold text-[11px] uppercase">
+            <a href="#home">Home</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#academics">Academics</a>
+            <a href="#foundation">Foundation</a>
+            <a href="#admissions" class="text-yellow-400">Admission</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 pt-24">
+        <section id="home" class="min-h-[50vh] flex flex-col items-center justify-center text-center">
+            <img src="https://i.postimg.cc/Kvfjy8Vs/32757-png.png" class="my-logo-circle">
+            <h1 class="kids-title text-4xl md:text-6xl mb-4 font-black">FALAH SMART SCHOOL</h1>
+            <p class="text-sm glass-ui p-6 rounded-2xl max-w-lg">Bridging the gap between Quranic Wisdom and Modern AI Innovation for a brighter tomorrow. Hum bachon ko sirf padhate nahi, unhe Kal ka Innovator banate hain.</p>
+        </section>
+
+        <section id="leadership" class="py-16">
+            <h2 class="kids-title text-3xl text-center mb-12">Leadership Vision</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-ui p-6 rounded-3x1 text-center">
+                    <img src="https://i.postimg.cc/X7dZLVgY/IMG-20260622-213241.png" class="portrait mx-auto mb-8">
+                    <h3 class="font-bold text-lg text-blue-400">Abdus Salam (Director)</h3>
+                    <p class="text-xs mt-4 leading-relaxed italic">"Humara aim sirf degrees dena nahi hai, balki aise bachon ko taiyaar karna hai jo imaan aur ilm dono mein mazboot hon. Humne Islamic culture aur AI Innovation ka ek aisa unique blend banaya hai jo aaj ke digital world mein har bachhe ko ek confident leader banaye ga."</p>
+                </div>
+                <div class="glass-ui p-6 rounded-3x1 text-center">
+                    <img src="https://i.postimg.cc/bwZKj6mf/HAN-PIC-COAT.png" class="portrait mx-auto mb-8">
+                    <h3 class="font-bold text-lg text-green-400">MD Hanzala Ahmad (Principal)</h3>
+                    <p class="text-xs mt-4 leading-relaxed italic">"Ek Civil Engineer hone ke naate, main samajhta hoon ki ek mazboot building ke liye neev (foundation) ka hona kitna zaroori hai. Falah Smart School mein humari neev Hifz-ul-Quran hai aur humari imarat 'Future Technology' ki hai. Hum bacho ko Robotics, AI, aur Advanced Mathematics sikha kar unhe aane wale century ke har mushkil challenge ke liye ready kar rahe hain."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="academics" class="py-16">
+            <h2 class="kids-title text-3xl text-center mb-12">Academic Excellence</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass-ui p-6 rounded-2xl border-l-4 border-blue-500">
+                    <h4 class="font-bold text-blue-400 mb-2">🤖 AI & Robotics Lab</h4>
+                    <p class="text-[11px] leading-relaxed">Humara robotics lab bachon ko logical thinking aur creative coding sikhata hai. Hum basic electronics se le kar complex machine learning models tak sab kuch hands-on experience ke saath karate hain.</p>
+                </div>
+                <div class="glass-ui p-6 rounded-2xl border-l-4 border-green-500">
+                    <h4 class="font-bold text-green-400 mb-2">📖 Hifz & Tajweed Program</h4>
+                    <p class="text-[11px] leading-relaxed">Deen ki sahi samajh ke liye hum bachon ko Quran ki tilawat, tajweed ke qawaid, aur Islamic jurisprudence sikhate hain. Iska maqsad bacho ke andar moral values aur discipline paida karna hai.</p>
+                </div>
+                <div class="glass-ui p-6 rounded-2xl border-l-4 border-yellow-500">
+                    <h4 class="font-bold text-yellow-400 mb-2">🚀 JEE/NEET Foundation</h4>
+                    <p class="text-[11px] leading-relaxed">Competitive exams ki taiyaari ke liye humne ek comprehensive module design kiya hai. Ismein physics, chemistry, aur maths ke concepts ko practical examples ke saath samjhaya jata hai.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="foundation" class="py-16">
+            <div class="max-w-2xl mx-auto glass-ui p-8 rounded-3xl text-center border border-yellow-500">
+                <h2 class="kids-title text-3xl mb-6 font-bold">Falah Foundation</h2>
+                <p class="text-xs leading-relaxed">"Koi bhi bachha sirf paise ki wajah se ilm se mehroom na rahe." Falah Foundation hamari ek dedicated initiative hai jahan hum un honhaar aur zarurat-mand bachon ko 100% scholarship, free digital tablets, aur advanced educational resources provide karte hain.</p>
+            </div>
+        </section>
+
+        <section id="admissions" class="py-16">
+            <div class="max-w-lg mx-auto glass-ui p-8 rounded-3xl border border-blue-500">
+                <h2 class="kids-title text-2xl text-center mb-6 font-bold">Admission Portal 2026</h2>
+                <form action="https://formspree.io/f/falahsmartschool@gmail.com" method="POST" enctype="multipart/form-data" class="grid gap-3 text-xs">
+                    <input type="text" name="Student" placeholder="Student Name" class="p-3 bg-black rounded-lg border border-white/20" required>
+                    <input type="text" name="Parent" placeholder="Parent Name" class="p-3 bg-black rounded-lg border border-white/20" required>
+                    <input type="text" name="Class" placeholder="Applying Class" class="p-3 bg-black rounded-lg border border-white/20" required>
+                    <input type="text" name="Address" placeholder="Full Address" class="p-3 bg-black rounded-lg border border-white/20" required>
+                    <input type="file" name="Documents" class="p-3 bg-black rounded-lg border border-white/20">
+                    <button class="bg-blue-600 py-3 rounded-lg font-bold">SUBMIT APPLICATION</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="py-10 text-center text-xs">
+            <p class="font-bold mb-4">📍 Pankhatoli Chowk, Shahjangi, Bhagalpur</p>
+            <div class="w-full h-64 rounded-2xl overflow-hidden border border-blue-500">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.5878439563225!2d86.97444747538234!3d25.617154214532724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f1a8c0d12e6973%3A0x6b4f7e1b9b5a26c4!2sShahjangi%2C%20Bhagalpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1686765432100!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
